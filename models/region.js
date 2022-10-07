@@ -10,4 +10,4 @@ var regionSchema = new mongoose.Schema({
 })
 
 // make public 
-module.exports = mongoose.Model('Region', regionSchema)
+module.exports = mongoose.model('Region', regionSchema)
