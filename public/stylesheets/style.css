@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 body {
-  padding: 50px;
   font: 14px 'Mukta', sans-serif;
 }
 
@@ -15,4 +14,13 @@ a {
 
 .btn-primary {
   background-color: #CDDC39;
+}
+
+.btn-primary:hover {
+  background-color: #009688 !important;
+}
+
+main {
+  padding-top: 20px;
+  padding-left: 50px;
 }
